@@ -1,0 +1,60 @@
+<% include ./partials/head %>
+
+  <body id="app">
+
+    <% include ./partials/header-logged %>
+      <div class="container">
+
+        <div class="page-header">
+          <h2 Profile</h2>
+
+        </div>
+
+        <div class="row">
+
+          <!-- LOCAL INFORMATION -->
+          <div class="col-sm-1"></div>
+          <div class="col-sm-3">
+            <div class="plate">
+              <div class="plate-head">
+                <div class="avater">
+                <img src="/imgs/author.jpeg"style="width:80px; height:80px;"/>
+                </div>
+
+
+
+              </div>
+              <div class="plate-tab">ABOUT</div>
+              <div class="plate-content">
+                
+                <div style="display:block;">
+
+                  <div class="row">
+                    <div class="col-sm-5">
+                      <span class="label label-info">&nbsp;&nbsp;<span class="fa fa-user"></span>&nbsp;&nbsp;</span>
+                    </div>
+                    <div class="col-sm-7">
+                      ID:
+                      <%= user._id %><br>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-5">
+                      <span class="label label-info">&nbsp;&nbsp;<span class="fa fa-envelope"></span>&nbsp;&nbsp;</span>
+                    </div>
+                    <div class="col-sm-7">
+                      <%= user.local.email %><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-5"></div>
+        </div>
+
+      </div>
+  </body>
+
+  </html>

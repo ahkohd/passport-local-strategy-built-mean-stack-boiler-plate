@@ -13,7 +13,7 @@ Read more about the M.E.A.N stack boiler plate, visit the <a ref="https://github
 
 ## Features
  *  Passport: This module lets you authenticate using a username and password in your Node.js applications. By plugging into Passport, local authentication can be easily and unobtrusively integrated into any application or framework that supports Connect-style middleware, including Express. <a href="https://www.npmjs.com/package/passport-local">Read More Here</a>.
- * EJS Templating Engine: Based on user request on the earlier release of the boiler plate, sompe told me that the prefer EJS to PUG, which I initially used as the template engine. Therefore I used EJS this time, to serve as the app's view template engine.  
+ * EJS Templating Engine: Based on user request on the earlier release of the boiler plate, some told me that the prefer EJS to PUG, which I initially used as the template engine. Therefore I used EJS this time, to serve as the app's view template engine.  
 
 
 ## License
